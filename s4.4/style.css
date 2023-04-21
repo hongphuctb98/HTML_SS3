@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 800px;
+  margin: 40px auto 0;
+}
+
+.ss8 {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.ss8_list .ss8_item:first-child {
+  border-bottom: 2px solid #ccc;
+}
+.ss8_item {
+  border-bottom: 2px solid #ccc;
+}
+.ss8_item_content {
+  padding: 15px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.ss8_item_content span {
+  color: #b43c73;
+}
+.ss8_item_header {
+  color: #3a85f6;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.ss8_item_header:hover {
+  cursor: pointer;
+  background-color: #f7f2f2;
+}
+.ss8_item_header p {
+  font-size: 20px;
+}
+
+/* ss9 */
+
+.ss9 {
+  border: 1px solid #ccc;
+  width: 500px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.ss9_item {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ss9_box {
+  width: 25px;
+  height: 25px;
+  border-radius: 8px;
+  background-color: #3a85f6;
+}
+
+.wrap_left {
+  font-weight: 600;
+  color: #697076;
+  display: flex;
+  gap: 15px;
+}
+
+.ss9_list li:last-child {
+  border-top: 1px solid #ccc;
+  padding: 15px;
+}
+
+.ss10 {
+  width: 500px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.ss10_img {
+  background-image: url("https://gamek.mediacdn.vn/133514250583805952/2020/5/7/anh-2-15888608785961251984326.jpg");
+  padding-top: 100%;
+  background-size: cover;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+
+  object-fit: cover;
+}
+.ss10_name {
+  padding-top: 15px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.ss10_info {
+  font-size: 20px;
+  line-height: 1.5;
+  padding-bottom: 30px;
+}
+
+.ss11 {
+  width: 400px;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+
+.ss11_img img {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 50%;
+}
+.ss11_name {
+  font-size: 38px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.ss11_info {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #ccc;
+}

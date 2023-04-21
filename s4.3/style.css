@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+ul {
+  list-style-type: none;
+}
+
+.ss4 {
+  width: 360px;
+  margin: 0 auto;
+  border: 1px solid #d7d7d7;
+  border-radius: 5px;
+}
+.ss4 img {
+  width: 100%;
+  height: auto;
+}
+
+.item_infor {
+  line-height: 1.5;
+}
+
+.item_header {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0 20px;
+}
+.item_descrip {
+  font-size: 18px;
+  padding: 10px 20px 20px;
+}
+.item_list li,
+.item_link {
+  border-top: 1px solid #d7d7d7;
+  padding: 10px 20px;
+}
+.item_link {
+  display: flex;
+  gap: 15px;
+}
+.item_link a {
+  color: #2761af;
+}
+
+/* ss5 */
+.ss5 {
+  width: 800px;
+  margin: 20px auto;
+  font-size: 18px;
+  border: 2px solid #f7f7f7;
+  border-radius: 2px;
+}
+
+.ss5_top {
+  border-bottom: 2px solid #f7f7f7;
+}
+
+.ss5_top,
+.ss5_bottom {
+  background-color: #e7e8ec;
+  padding: 10px 0;
+  text-align: center;
+}
+.ss5_content {
+  text-align: center;
+}
+.ss5_header {
+  font-weight: 600;
+  font-size: 24px;
+  padding: 15px 0;
+}
+
+.ss5_btn {
+  margin: 12px 0;
+  padding: 10px 30px;
+  min-width: 90px;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  background-color: #0b6efd;
+  border: none;
+  border-radius: 5px;
+}
+.ss5_bottom {
+  color: #333;
+  border-top: 2px solid #b4b1b1;
+}
+
+/* ss6 */
+.ss6 {
+  width: 800px;
+  margin: 20px auto;
+  border: 2px solid #b4b1b1;
+  border-radius: 2px;
+  font-size: 24px;
+}
+.ss6_list li {
+  border-bottom: 2px solid #b4b1b1;
+  padding: 15px 20px;
+}
+
+.ss6_list li p {
+  padding-left: 22px;
+  font-size: 20px;
+}
+
+.ss6_item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item_title {
+  font-weight: 600;
+}
+
+.subnumber {
+  padding: 5px 14px;
+  border-radius: 18px;
+  background-color: #0b6efd;
+  color: white;
+  font-weight: 600;
+}
+
+/* ss7 */
+
+.ss7 {
+  width: 800px;
+  margin: 20px auto;
+  border: 2px solid #b4b1b1;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ss7_top {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  font-size: 24px;
+  font-weight: 600;
+  border-bottom: 2px solid #b4b1b1;
+}
+.ss7_descrip {
+  font-size: 20px;
+  padding: 15px 20px;
+  border-bottom: 2px solid #b4b1b1;
+}
+.ss7_btn {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #0b6efd;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 10px 20px;
+  margin-left: auto;
+}

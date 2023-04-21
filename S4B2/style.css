@@ -1,0 +1,35 @@
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 1.6em;
+}
+
+html {
+  width: 800px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: #0098d1;
+}
+.news_title {
+  font-size: 17px;
+  font-weight: 700;
+}
+.describe {
+  font-size: 14px;
+}
+
+img {
+  width: 80%;
+}
+div {
+  margin: 0 auto;
+  text-align: center;
+}
+
+p {
+  text-indent: 20px;
+}
